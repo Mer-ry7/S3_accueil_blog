@@ -10,3 +10,5 @@ let ages = [18, 21, 19, 25, 22];
 console.log("la taille total :", ages.length);
 
 console.log("la derniere valeur :", ages[ages.length -1]);
+
+// l'index de départ est sequence.lenght-1 et non sequence.lenght car les indices d'un tableaux commencent à 0
