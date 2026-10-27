@@ -34,5 +34,6 @@ if(position !== -1) {
     console.log("valeur introuvable");
 }
 
-
+// On utilise souvent une variable initialisée à -1 pour stocker la position 
+// car l’index -1 n’existe pas dans un tableau, cela signifie donc "non trouvé"
 
