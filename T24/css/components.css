@@ -19,7 +19,7 @@
 }
 
 .carte-image {
-    display: block; /* Retire le petit espace parasite sous les liens */
+    display: block;
 }
 
 .carte-image img {
