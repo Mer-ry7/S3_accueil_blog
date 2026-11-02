@@ -20,6 +20,8 @@
 
 .barre-navigation{
     display: flex;
+    justify-content: space-between;
+
 }
 
 .liens-navigation a {
@@ -60,4 +62,5 @@
 
 .conteneur-pied-de-page{
     display: flex;
+    justify-content: space-between;
 }
