@@ -8,7 +8,7 @@
     font-size: 18px; 
 }
 
-.liste-filtres{
+.skills-liste{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
