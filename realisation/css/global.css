@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    color: #3b1c3f;
-    background: #fff7fb;
+    color: #172B4D;
+    background: #F4F8FA;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -20,19 +20,25 @@ h1, h2, h3 {
     font-family: Georgia, serif;
 }
 
-h2,h3 {
-    margin-bottom: 32px;
+h2, h3 {
+    margin-bottom: 24px;
+}
+
+h2 {
     font-size: 32px;
 }
 
+h3 {
+    font-size: 22px;
+}
 
 p {
     margin: 0 0 14px;
-    color: #7a5a80;
+    color: #63758B;
 }
 
 small {
-    color: #9a7ba0;
+    color: #168C91;
 }
 
 section {
@@ -41,7 +47,6 @@ section {
     padding: 64px 24px;
 }
 
-/* ----- Classes ----- */
 
 .rangee {
     display: flex;
@@ -51,67 +56,65 @@ section {
 
 .carte {
     flex: 1 1 220px;
-    padding: 24px;
+    padding: 28px;
     background: white;
-    border: 1px solid #f3d3e3;
+    border: 1px solid #DCE7EC;
     border-radius: 16px;
 }
 
-/* ----- Sections ----- */
-#accueil {
-    max-width: none;
-    padding: 96px 24px;
-    text-align: center;
-    background: white radial-gradient(#f3d3e3 1px, transparent 1px) 0 0 / 24px 24px;
+.numero {
+    color: #168C91;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
-#accueil p {
-    max-width: 600px;
-    margin: 0 auto 24px;
+
+#accueil {
+    max-width: none;
+    padding: 100px 24px;
+    text-align: center;
+    background: white;
+}
+
+#accueil small {
+    font-size: 13px;
+    font-weight: 700;
 }
 
 #accueil h1 {
     font-size: 56px;
     line-height: 1.2;
-    margin: 0 auto 24px;
+    margin: 20px auto 24px;
 }
 
 #accueil span {
-    color: #e8497f;
+    color: #168C91;
 }
 
-img{
-    flex: 1;
-    max-width: 320px;
-    height: 360px;
-    object-fit: cover;
-    border: 2px solid #e8497f;
-    border-radius: 30%;
+#accueil p {
+    max-width: 600px;
+    margin: 0 auto 28px;
 }
 
-#contact {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 56px 24px;
+
+#apropos {
     text-align: center;
-    color: white;
-    background: #e8497f;
-    border-radius: 24px;
 }
 
-#contact p {
-    color: white;
+#apropos .carte {
+    text-align: left;
 }
 
-#contact .bouton {
-    color: #3b1c3f;
-    background: white;
-    border-radius: 8px;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 24px;
-    padding: 12px 24px;
+
+#fonctionnalites {
+    text-align: center;
 }
+
+#fonctionnalites .carte {
+    text-align: left;
+}
+
 
 .skills-liste {
     display: flex;
@@ -121,9 +124,38 @@ img{
 .skill {
     padding: 6px 14px;
     margin: 4px 4px 4px 0;
-    color: #7a5a80;
-    background: #ffddeb;
+    color: #14777B;
+    background: #DDF3F1;
     border-radius: 99px;
     font-size: 14px;
 }
 
+#contact {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 56px 24px;
+    text-align: center;
+    color: white;
+    background: #172B4D;
+    border-radius: 24px;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact p {
+    color: #DCE7EC;
+}
+
+#contact .bouton {
+    display: inline-block;
+    color: #172B4D;
+    background: #FFFFFF;
+
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 24px;
+    padding: 12px 24px;
+}

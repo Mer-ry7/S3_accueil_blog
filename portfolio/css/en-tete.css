@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 20px 24px;
+    background: white;
+    border-bottom: 1px solid #f3d3e3;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.logo span {
+    color: #e8497f;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+.bouton-principal, .bouton-secondaire {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bouton-secondaire{
+    color: #3b1c3f;
+    border: 1px solid #f3d3e3;
+}
+.bouton-principal{
+    color: white;
+    background: #e8497f;
+}
+
+
